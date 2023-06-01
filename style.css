@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background-color: #f0a606;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -29,8 +29,9 @@ body {
 
 h3 {
   margin: 0;
-  opacity: 0.5;
-  letter-spacing: 2px;
+  opacity: 0.8;
+  letter-spacing: 3px;
+  color:#de9607
 }
 
 .joke {
@@ -42,13 +43,14 @@ h3 {
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-color: #de9607;
   color: #fff;
   border: 0;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 14px 40px;
   font-size: 16px;
+  font-weight: bolder;
   cursor: pointer;
 }
 
